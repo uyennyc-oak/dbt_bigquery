@@ -40,3 +40,7 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+# disable auto capitalize
+    quoting:
+      identifier: false
+      schema: false
